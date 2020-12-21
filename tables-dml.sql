@@ -39,4 +39,4 @@ BEGIN
   END LOOP;
 END $$;
 
-select public.populate_tables(100);
+select public.populate_tables(1000000);
